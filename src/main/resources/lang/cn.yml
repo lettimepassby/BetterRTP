@@ -1,0 +1,52 @@
+Messages:
+  Prefix: '&7[&6随机传送&7] '
+  Success:
+    Paid: '&7你花费了&c$%price%，&a你已被传送至&7 x=%x% y=%y% z=%z%'
+    Bypass: '&a你已被传送至 &7x=%x% y=%y% z=%z% '
+  Failed:
+    Price: '&c余额不足! &7你至少需要 $%price% &7才能进行一次随机传送!'
+    NotSafe: '&c尝试 %attempts% 次后依旧无法找到安全地点! &7当前无法进行随机传送!'
+  Other:
+    Success: '&a%player% &7已被传送至&7 x=%x% y=%y% z=%z%!'
+    NotSafe: '&c尝试 %attempts% 次后依旧无法找到安全地点! &7%player% 当前无法进行随机传送!'
+    Biome: '&c生物群系&7 %biome%&c 不存在! &7请检查是否输入正确，或使用TAB补全!'
+  Reload: '&e配置文件已重载，本汉化文本by TimePassBy!'
+  NoPermission:
+    Basic: '&c抱歉! &7您无权使用该命令!'
+    World: '&c抱歉! &7您无法在 %world% 世界使用随机传送!'
+  DisabledWorld: '&c此世界 %world%! &c不允许随机传送!'
+  Cooldown: '&c抱歉! &7你需要等待 &c%time% &7秒后才能再次进行随机传送!'
+  Invalid: '&c无效命令. 使用 ''/%command% help''查看帮助'
+  NotOnline: '&c玩家 &7%player% &c并不在线!'
+  Delay: '&a传送将在 &f%time% &a秒后开始! 请不要移动!'
+  Moved: '&c你移动了! &7传送已取消!'
+  NotExist: '&c世界 &7%world% &c不存在!'
+  Already: '&c你正在进行随机传送！&7请不要多次输入命令'
+  Sign: '&7命令牌已创建! &7命令为: ''&f/rtp %command%&7'''
+Titles:
+  Enabled: true
+  Delay:
+    SendChatMessage: true
+    Title: '&6随机传送 作者:SRC'
+    Subtitle: '&f传送将在 %time% 秒后开始!'
+  Success:
+    SendChatMessage: true
+    Title: '&6随机传送 作者:SRC'
+    Subtitle: '&f你已被传送至 x=%x% y=%y% z=%z%'
+Help:
+  List:
+  - '&e&m------&r &6&l随机传送 &8| &7帮助 &e&m------'
+  - ' &7- &e/%command% &7- 随机传送!'
+  - ' &7- &e/%command% help &7- 展示帮助'
+  Player: ' &7- &e/%command% player <玩家> [世界] [生物群系1, 生物群系2...] &7- 随机传送该玩家'
+  World: ' &7- &e/%command% world <世界> [生物群系1, 生物群系2...] &7- 随机传送至另外个世界'
+  Biome: ' &7- &e/%command% biome <生物群系1, 生物群系2...> &7- 随机传送至这些生物群系'
+  Reload: ' &7- &e/%command% reload &7- Reloads the plugin'
+Usage:
+  Player: '&c参数错误&7: /%command% player <玩家> [世界] [生物群系1, 生物群系2]'
+  World: '&c参数错误&7: /%command% world <世界> [生物群系1, 生物群系2...]'
+  Biome: '&c参数错误&7: /%command% biome <生物群系1, 生物群系2...>'
+Sounds:
+  Enabled: true
+  Delay: entity_tnt_primed
+  Success: entity_generic_explode
